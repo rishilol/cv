@@ -13,7 +13,7 @@
 </head>
 <body onresize="resized()">
 	<h1>Rishi Koduri</h1>
-	<sub>Student that wants to attend A&M, Mays School of business and pursue  a degree in Management information Systems (MIS). Want to obtain a  MIS master's degree from A&M then adventure on to the cybersecurity industry.</sub>
+	<sub>Student that wants to work with the cybersecurity industry. Exited for the future and seeing what college stores for me.</sub>
 	<div class="content">
 		<div class="left">
 			<h2>School Involvement</h2>
@@ -170,4 +170,38 @@
 	<canvas id="canvas"></canvas>
 	<script src="app.js"></script>
 </body>
+<template>
+	<ul>
+	  <li>
+		<slot name='h-1'></slot>
+		<ul>
+		  <li><slot name='sh-1-1'></slot></li>
+		</ul>
+	  </li>
+	  <li><slot name='h-2'></slot></li>
+	  <li><slot name='h-3'></slot></li>
+	  <li>
+		<slot name='h-4'></slot>
+		<ul>
+		  <li><slot name='sh-4-1'></slot></li>
+		  <li><slot name='sh-4-2'></slot></li>
+		  <li><slot name='sh-4-3'></slot></li>
+		</ul>
+	  </li>
+	</ul>
+	<style>
+	  ul {
+		list-style: none;
+	  }
+	/* … */
+	</style>
+	</template>
+<footer>
+	<small>
+		"©"
+		<script> document.write(new Date().getFullYear())</script>
+		"Rishi Koduri, All Rights Reserved"
+	</small>
+</footer>
+<script src="app.js"></script>
 </html>
