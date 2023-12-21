@@ -1,4 +1,4 @@
-// Start coding here
+ cvx// Start coding here
 const canvas = document.getElementById("canvas")
 const ctx = canvas.getContext("2d")
 canvas.width = 1024
@@ -47,3 +47,4 @@ function animate() {
     }
 }
 animate()
+

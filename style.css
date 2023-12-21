@@ -19,12 +19,11 @@ h2 {
 }
 
 sub {
-	font-size: 15px;
+	font-size: 20px;
 	box-shadow: 10px 10px 0 rgba(255, 255, 255, 0.3);
 	background-color: rgba(255, 255, 255, 0.1);
 	padding:10px;
 }
-
 .specification {
 	background-color: rgba(0, 0, 0, 0.3);
 	color:white;
@@ -84,3 +83,4 @@ canvas {
 	height:30px;
 	margin:10px;
 }
+
